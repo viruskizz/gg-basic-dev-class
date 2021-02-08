@@ -3,7 +3,8 @@
 /*
 This is multi line comment
 */
-console.log("Test main branch");
+console.log("Edit Test main branch");
+console.log("Add new line to main");
 console.log("Hello World");
 console.log('Hello World 2 Single Quote');
 console.log("I say \"Hi\"");
