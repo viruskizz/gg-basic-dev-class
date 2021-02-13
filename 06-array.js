@@ -5,12 +5,14 @@ let room1 = 40;
 let room2 = 45;
 let room3 = 50;
 let room4 = 45;
-let rooms = [40, 45, 50, 45, 60, 55];
+let rooms = [40, 45, 50, 45, 60, 55]; // length=6, lastIndex=5
+// let rooms = [40, 45, 50, 45, 60, 55, 100, 1000, 5000]; // length=9, lastIndex=8
 // console.log(room1);
 console.log(rooms);
 rooms[0] = 60;
 console.log(rooms);
 console.log(`size of rooms = ${rooms.length}`);
+console.log(`last index value =  ${rooms[rooms.length - 1]}`);
 rooms.push('Student');
 rooms.unshift('School');
 // rooms[10] = 40;
