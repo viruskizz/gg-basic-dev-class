@@ -10,7 +10,7 @@ console.log(`Big Height ${bigProfiles[3]} cm.`);
 
 let bigProfile = {
   firstname: 'Piyanut',
-  lastname: 'Plaime',
+  lastname: 'Plaimee',
   age: 18,
   height: 170,
   favoriteColors: ['Red', 'Blue', 'Green'],
